@@ -14,6 +14,9 @@
 
 #include "subxid.h"
 
+struct xid xid_u;
+struct xid xid_g;
+
 static void cleanup_voidp(void *p) {
     free(*(void**)p);
 }
